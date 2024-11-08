@@ -1,0 +1,84 @@
+﻿<Window x:Class="LibraSys.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        AllowsTransparency="True" WindowStartupLocation="CenterScreen"
+        xmlns:vm="clr-namespace:LibraSys.ViewModel"
+        WindowStyle="None"
+        Background="Transparent"
+        Title="Admin" Height="720" Width="1080">
+    <Window.DataContext>
+        <vm:NavigationAdmin></vm:NavigationAdmin>
+    </Window.DataContext>
+    <Border Background="White" CornerRadius="30"
+            MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button Style="{StaticResource topButton}" HorizontalAlignment="Left" Margin="20 28 0 35">
+                    <icon:PackIconMaterial Kind="Menu" Width="15" Height="15"/>
+                </Button>
+                <Border Grid.Row="1" Background="#623ed0" CornerRadius="0 50 0 30">
+                    <DockPanel>
+                        <Border Width="80" Height="80" Padding="3" Background="White" CornerRadius="100"
+        DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="20 -30 0 0">
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="D:/TheHieuPRN/WPF/Images/order_page.png" />
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Border>
+                        <TextBlock Text="TheHieu03" Foreground="White" FontSize="22" FontWeight="SemiBold"
+           DockPanel.Dock="Top" TextAlignment="Center" Margin="5 25 0 10" />
+                        <TextBlock Text="Welcom Admin" Foreground="#d0bfff" FontSize="14" FontWeight="SemiBold"
+           DockPanel.Dock="Top" TextAlignment="Center" />
+                        <Separator Margin="25" DockPanel.Dock="Top" Height="0.8" Background="#7e5fdc" />
+                        <StackPanel DockPanel.Dock="Top">
+                            <Button Command="{Binding AccountCommand}" Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <icon:PackIconMaterial Kind="Human" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Account" />
+                                </StackPanel>
+                            </Button>
+                            <Button Command="{Binding BookCommand}" Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <icon:PackIconMaterial Kind="Book" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Book" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <icon:PackIconMaterial Kind="HorseHuman" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Athor" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <icon:PackIconMaterial Kind="OrderAlphabeticalAscending" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Order" />
+                                </StackPanel>
+                            </Button><Button Click="Button_Click" Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <icon:PackIconMaterial Kind="Logout" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Logout" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                    </DockPanel>
+                </Border>
+            </Grid>
+            <Grid Grid.Column="1">
+                <ContentControl x:Name="Pages"
+            Content="{Binding CurrentView}" />
+            </Grid>
+        </Grid>
+        
+    </Border>
+</Window>

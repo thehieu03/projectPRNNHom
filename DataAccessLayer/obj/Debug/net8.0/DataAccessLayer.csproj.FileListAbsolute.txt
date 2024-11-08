@@ -1,0 +1,32 @@
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\BussinessObject.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\BussinessObject.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\BussinessObject.dll
+D:\TheHieuPRN\DataAccessLayer\bin\Debug\net8.0\BussinessObject.pdb
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\TheHieuPRN\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

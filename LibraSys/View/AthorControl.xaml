@@ -1,0 +1,79 @@
+﻿<UserControl x:Class="LibraSys.View.AthorControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LibraSys.View"
+             xmlns:vm="clr-namespace:LibraSys.ViewModel"
+             xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style x:Key="DataGridRowStyle1" TargetType="{x:Type DataGridRow}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridRow}">
+                        <Grid/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="DataGridCellStyle1" TargetType="{x:Type DataGridCell}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridCell}">
+                        <Grid/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Width="300" HorizontalAlignment="Left">
+            <TextBlock Margin="20 0" VerticalAlignment="Center" Foreground="#b0b9c6" 
+           Panel.ZIndex="1" Text="Search here ..." 
+           IsHitTestVisible="False" Visibility="Visible"
+                   />
+
+            <TextBox x:Name="txtSearch" Style="{StaticResource textboxSearch}" />
+
+            <Icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" VerticalAlignment="Center"
+                       Margin="0 0 15 0" Foreground="#b0b9c6" HorizontalAlignment="Right" />
+            <Button Style="{StaticResource topButton}" Margin="262,14,0,14" Background="#dcdcdc" RenderTransformOrigin="9.085,0.423"/>
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock Text="Members" FontSize="32" FontWeight="SemiBold" 
+       Margin="0 20 0 0" HorizontalAlignment="Left" Foreground="#121518" />
+            <Button Style="{StaticResource exportButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" 
+                           Width="11" Height="11" Margin="0 1 8 0" />
+                    <TextBlock Text="Add Book"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+        <DataGrid ItemsSource="{Binding Users}" CanUserAddRows="False" AutoGenerateColumns="False" Grid.Row="3">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding UserName}" Width="150"/>
+                <DataGridTextColumn Header="Image" Binding="{Binding PassWord}" Width="150"/>
+                <DataGridTextColumn Header="Tác giả" Binding="{Binding Email}" Width="150"/>
+                <DataGridTextColumn Header="Thể loại" Binding="{Binding Gender}" Width="150"/>
+                <DataGridTextColumn Header="Số lượng" Binding="{Binding UserAddress}" Width="150"/>
+                <DataGridTemplateColumn Header="Option">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Delete" Command="{Binding DataContext.DeleteCommand,RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                CommandParameter="{Binding Id}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

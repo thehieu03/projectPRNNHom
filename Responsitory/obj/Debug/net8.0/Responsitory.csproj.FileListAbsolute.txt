@@ -1,0 +1,36 @@
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\bin\Debug\net8.0\Responsitory.deps.json
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\bin\Debug\net8.0\Responsitory.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\bin\Debug\net8.0\Responsitory.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\bin\Debug\net8.0\BussinessObject.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\bin\Debug\net8.0\BussinessObject.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.csproj.AssemblyReference.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.AssemblyInfoInputs.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.AssemblyInfo.cs
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.csproj.CoreCompileInputs.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsi.C4AAA213.Up2Date
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\refint\Responsitory.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\ref\Responsitory.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.sourcelink.json
+D:\TheHieuPRN\Responsitory\bin\Debug\net8.0\Responsitory.deps.json
+D:\TheHieuPRN\Responsitory\bin\Debug\net8.0\Responsitory.dll
+D:\TheHieuPRN\Responsitory\bin\Debug\net8.0\Responsitory.pdb
+D:\TheHieuPRN\Responsitory\bin\Debug\net8.0\BussinessObject.dll
+D:\TheHieuPRN\Responsitory\bin\Debug\net8.0\DataAccessLayer.dll
+D:\TheHieuPRN\Responsitory\bin\Debug\net8.0\BussinessObject.pdb
+D:\TheHieuPRN\Responsitory\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.csproj.AssemblyReference.cache
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.GeneratedMSBuildEditorConfig.editorconfig
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.AssemblyInfoInputs.cache
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.AssemblyInfo.cs
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.csproj.CoreCompileInputs.cache
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.sourcelink.json
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsi.C4AAA213.Up2Date
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.dll
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\refint\Responsitory.dll
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\Responsitory.pdb
+D:\TheHieuPRN\Responsitory\obj\Debug\net8.0\ref\Responsitory.dll

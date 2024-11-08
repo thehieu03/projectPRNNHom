@@ -1,0 +1,29 @@
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\bin\Debug\net8.0\BussinessObject.deps.json
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\bin\Debug\net8.0\BussinessObject.runtimeconfig.json
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\bin\Debug\net8.0\BussinessObject.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\bin\Debug\net8.0\BussinessObject.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.csproj.AssemblyReference.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.AssemblyInfoInputs.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.AssemblyInfo.cs
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.csproj.CoreCompileInputs.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\refint\BussinessObject.dll
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.pdb
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.genruntimeconfig.cache
+C:\Users\hieun\OneDrive\Máy tính\TheHieuPRN\BussinessObject\obj\Debug\net8.0\ref\BussinessObject.dll
+D:\TheHieuPRN\BussinessObject\bin\Debug\net8.0\BussinessObject.deps.json
+D:\TheHieuPRN\BussinessObject\bin\Debug\net8.0\BussinessObject.runtimeconfig.json
+D:\TheHieuPRN\BussinessObject\bin\Debug\net8.0\BussinessObject.dll
+D:\TheHieuPRN\BussinessObject\bin\Debug\net8.0\BussinessObject.pdb
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.csproj.AssemblyReference.cache
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.AssemblyInfoInputs.cache
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.AssemblyInfo.cs
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.csproj.CoreCompileInputs.cache
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.sourcelink.json
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.dll
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\refint\BussinessObject.dll
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.pdb
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\BussinessObject.genruntimeconfig.cache
+D:\TheHieuPRN\BussinessObject\obj\Debug\net8.0\ref\BussinessObject.dll

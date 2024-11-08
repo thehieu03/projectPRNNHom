@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="LibraSys.View.AdminBook"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LibraSys.View"
+             xmlns:vm="clr-namespace:LibraSys.ViewModel"
+             xmlns:utils="clr-namespace:LibraSys.Utilities"
+             xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <utils:ByteArrayToImageConverter x:Key="ByteArrayToImageConverter" />
+        <Style x:Key="DataGridRowStyle1" TargetType="{x:Type DataGridRow}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridRow}">
+                        <Grid/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="DataGridCellStyle1" TargetType="{x:Type DataGridCell}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridCell}">
+                        <Grid/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Width="300" HorizontalAlignment="Left">
+            <TextBox Text="{Binding SearchBook}" x:Name="searchTextBox" Style="{StaticResource textboxSearch}" />
+            <Icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" VerticalAlignment="Center"
+                       Margin="0 0 15 0" Foreground="#b0b9c6" HorizontalAlignment="Right" />
+            <Button Command="{Binding SearchCommand}" Style="{StaticResource topButton}" Margin="262,14,0,14" Background="#dcdcdc" RenderTransformOrigin="9.085,0.423"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock Text="Book" FontSize="32" FontWeight="SemiBold" 
+       Margin="0 20 0 0" HorizontalAlignment="Left" Foreground="#121518" />
+            <Button Command="{Binding AddCommand}"  Style="{StaticResource exportButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" 
+                           Width="11" Height="11" Margin="0 1 8 0" />
+                    <TextBlock Text="Add Book"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+        <DataGrid ItemsSource="{Binding BookList}" CanUserAddRows="False" AutoGenerateColumns="False" Grid.Row="3">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Tên" Binding="{Binding BookName}" Width="100"/>
+                <DataGridTemplateColumn Header="Image" Width="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding BookImg, Converter={StaticResource ByteArrayToImageConverter}}" Width="150" Height="100" Stretch="Fill"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Tác giả" Binding="{Binding Author.AuthorName}" Width="120"/>
+                <DataGridTextColumn Header="Loại sách" Binding="{Binding Category.CategoryName}" Width="120"/>
+                <DataGridTextColumn Header="Số lượng" Binding="{Binding Quantity}" Width="150"/>
+                <DataGridTemplateColumn Header="Option">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Delete" Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                            CommandParameter="{Binding BookId}"/>
+                                <!--<Button Content="Update" Command="{Binding DataContext.UpdateCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                CommandParameter="{Binding BookId}"/>-->
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
